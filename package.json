@@ -1,0 +1,26 @@
+{
+  "name": "base-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./dist/index.js",
+    "build": "node_modules/.bin/tsc",
+    "watch": "node_modules/.bin/tsc -w",
+    "dev": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.12",
+    "path": "^0.12.7",
+    "socket.io": "^4.1.3",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.3.5"
+  }
+}
